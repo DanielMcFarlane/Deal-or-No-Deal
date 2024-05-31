@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Deal_or_No_Deal</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Arrow background.jpg" />
+    <None Remove="Rules.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Arrow background.jpg" />
+    <Resource Include="Rules.jpg" />
+  </ItemGroup>
+
+</Project>
